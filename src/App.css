@@ -1,6 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .App {
   text-align: center;
+  @apply bg-gray-800 text-white;
 }
+
+.header {
+  @apply text-4xl font-bold py-4;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +59,15 @@
     transform: rotate(360deg);
   }
 }
+
+.scrolling-container {
+  max-height: 150px; /* Adjust the maximum height as needed */
+  overflow-y: auto;
+}
+
+.iframe-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px; /* Adjust the gap between iframes as needed */
+}
+
