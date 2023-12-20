@@ -337,7 +337,7 @@ function App() {
   
   <button className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 flex items-center rounded-full">
     <MdOutlineEmail className="mr-2" />
-    <a href="mailto:asusakbar008@gmail.com?body=My custom mail body">
+    <a href="mailto:asusakbar008@gmail.com?body=Halo i just seen your best portofolio Manusia Ikan!">
       Different Hello?
     </a>
   </button>
